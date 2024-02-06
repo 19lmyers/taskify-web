@@ -1,0 +1,12 @@
+[
+	{
+		"relation": ["delegate_permission/common.handle_all_urls"],
+		"target": {
+			"namespace": "android_app",
+			"package_name": "dev.chara.taskify.android",
+			"sha256_cert_fingerprints": [
+				"1E:61:F2:72:05:B0:2B:C5:87:8C:06:54:E3:1B:49:69:DB:71:9A:23:9E:B4:E3:02:30:29:54:F4:83:16:51:71"
+			]
+		}
+	}
+]
