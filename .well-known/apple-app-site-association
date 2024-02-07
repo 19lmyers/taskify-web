@@ -1,0 +1,20 @@
+{
+   "applinks": {
+      "details": [
+         {
+            "appIDs": [
+               "N2WQ73MLWJ.dev.chara.taskify.ios"
+            ],
+            "components": [
+               {
+                  "/": "/join",
+                  "?": {
+                     "token": "*"
+                  },
+                  "comment": "Workspace join screen"
+               }
+            ]
+         }
+      ]
+   }
+}
