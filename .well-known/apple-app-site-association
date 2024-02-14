@@ -1,20 +1,35 @@
 {
-   "applinks": {
-      "details": [
-         {
-            "appIDs": [
-               "N2WQ73MLWJ.dev.chara.taskify.ios"
-            ],
-            "components": [
-               {
-                  "/": "/join",
-                  "?": {
-                     "token": "*"
-                  },
-                  "comment": "Workspace join screen"
-               }
-            ]
-         }
-      ]
-   }
+  "applinks": {
+    "details": [
+      {
+        "appIDs": [
+          "N2WQ73MLWJ.dev.chara.taskify.ios"
+        ],
+        "components": [
+          {
+            "/": "/join",
+            "?": {
+              "token": "*"
+            },
+            "comment": "Workspace join screen"
+          },
+          {
+            "/": "/workspace",
+            "?": {
+              "workspaceId": "*"
+            },
+            "comment": "View workspace"
+          },
+          {
+            "/": "/task",
+            "?": {
+              "workspaceId": "*",
+              "taskId": "*"
+            },
+            "comment": "View task"
+          }
+        ]
+      }
+    ]
+  }
 }
